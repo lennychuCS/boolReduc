@@ -27,7 +27,7 @@ segMap = {
 
         }
 
-with open("/home/len/PycharmProjects/boolReduc/tTable.csv") as file_name:
+with open("./tTable.csv") as file_name:
     data = np.loadtxt(file_name, delimiter=",", dtype="str")
 
 def compileTerms(seg):
